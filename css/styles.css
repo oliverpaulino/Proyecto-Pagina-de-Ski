@@ -131,7 +131,8 @@ section .contactanos .contenedor .flexbox1{
     background-attachment: fixed;
     background-repeat: no-repeat;
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    margin: auto;
     background-position: center 0 ;
 }
 
@@ -147,14 +148,14 @@ section .contactanos .contenedor .formulario{
 .formulario-interno{
     display:flex;
     flex-direction: column;
-    justify-content:center;
+    margin: auto;
 }
 
 .formulario-interno .error{
     color: rgb(173, 9, 9);
     display: flex;
     justify-content: center;
-    margin-left: -105px;
+    margin-top: 20px;
 }
 
 
@@ -193,8 +194,27 @@ textarea{
     text-decoration: none;
 }
 
+.preguntas{
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 300;
+}
 
+.preguntas .pregunta{
+    font-weight: 500;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
 
+.preguntas .respuesta{
+    font-style: italic;
+    margin-top: 10px;
+}
 
 
 

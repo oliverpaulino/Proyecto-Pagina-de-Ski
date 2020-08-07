@@ -13,32 +13,6 @@ $(document).ready(function () {
     }
 
 
-    $('#btn-index').click(function(){
-        $('html, body').animate({
-            scrollTop: 0
-        }, 1000);
-    })
-    $('#btn-valores').click(function(){
-        $('html, body').animate({
-            scrollTop: 750
-        }, 700);
-    })
-    $('#btn-servicios').click(function(){
-        $('html, body').animate({
-            scrollTop: 1500
-        }, 700);
-    })
-    $('#btn-contactanos').click(function(){
-        $('html, body').animate({
-            scrollTop: 2650
-        }, 700);
-    })
-    $('#btn-preguntas').click(function(){
-        $('html, body').animate({
-            scrollTop: 750
-        }, 700);
-    })
-
 
     $('#btn-index').click(function(){
         
@@ -50,17 +24,17 @@ $(document).ready(function () {
     })
     $('#btn-servicios').click(function(){
         $('html, body').animate({
-            scrollTop: 1500
+            scrollTop: 1600
         }, 1000);
     })
     $('#btn-contactanos').click(function(){
         $('html, body').animate({
-            scrollTop: 2650
+            scrollTop: 2750
         }, 1000);
     })
     $('#btn-preguntas').click(function(){
         $('html, body').animate({
-            scrollTop: 750
+            scrollTop: 3650
         }, 1500);
     })
 });

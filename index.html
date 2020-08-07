@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="sp">
 
         <div class="contenedor">
             <nav class="menu">
@@ -33,7 +33,7 @@
 
 
     <section>
-        <section class="inicio" id="valores">
+        <section class="inicio sp" id="valores">
             <div class="contenedor">
                 <h2 class="titulo">Nuestros Valores</h2>
                 <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi delectus eum placeat
@@ -57,7 +57,7 @@
         </section>
         <hr>
 
-        <section class="servicios" id="servicios">
+        <section class="servicios sp" id="servicios">
             <div class="contenedor">
                 <h2 class="titulo">Servicios</h2>
                 <p class="parrafo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos dolore ipsa illum
@@ -80,28 +80,64 @@
 
 
 
-        <section class="contactanos" id="contactanos">
+        <section class="contactanos sp" id="contactanos">
             <h2 class="titulo mg">Contactanos</h2>
             <div class="contenedor">
                 <div class="flexbox1">
                 </div>
-                <form action="" class="formulario">
-                    <div class="direccion">
+                <form action="" onsubmit="validar(correo.value)" class="formulario">
+                    <div class="contacto">
                         <p><strong>Telefono:</strong> 809-345-3256</p>
                         <p class="direccion"><strong>Direccion:</strong>La casa del lado de la vecina tuya, y no se
                             donde mas puedo vivir</p>
                         <p><strong>Email:</strong>ElpericodeMiguel@gmail.com</p>
                     </div>
                     <div class="formulario-interno">
-                        <p class="error" id="error">Hola soy el error mientras tanto</p>
-                        <input type="text" name="" id="nombre" placeholder="Nombre Completo">
-                        <input type="text" name="" id="correo" placeholder="Correo Electronico">
-                        <input type="text" name="" id="asunto" placeholder="Asunto o Duda">
-                        <textarea name="" placeholder="Mensaje" id="mensaje" cols="30" rows="10"></textarea>
-                        <input type="submit" value="Submit">
+                        <p class="error" id="error"></p>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo">
+                        <input type="text" name="correo" id="correo" placeholder="Correo Electronico">
+                        <input type="text" name="asunto" id="asunto" placeholder="Asunto o Duda">
+                        <textarea name="mensaje" placeholder="Mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                        <input type="submit" onsubmit="validar(correo.value)" value="Submit">
                     </div>
                 </form>
             </div>
+        </section>
+        <hr class="ht">
+
+        <section class="preguntas" id="preguntas">
+            <h2 class="titulo">Preguntas frecuentes</h2>
+            <h3 class="pregunta">Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+            <p class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti maiores ipsam odit
+                qui reprehenderit deserunt laboriosam repudiandae at adipisci veniam aliquid saepe, praesentium possimus
+                expedita earum eligendi tempora vero. At, numquam laborum id quaerat vel ab perspiciatis quia obcaecati
+                sint quod, assumenda dicta. Repellat nobis dicta ratione suscipit! Exercitationem, </p>
+            <h3 class="pregunta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <p class="respuesta">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam quidem accusamus
+                reiciendis accusantium voluptatibus, commodi repellat esse non corrupti saepe perferendis culpa.
+                Molestiae illo consequuntur repellat accusantium, eius non, hic aliquid assumenda libero praesentium
+                distinctio exercitationem impedit culpa tempore, ullam perferendis mollitia cumque sed laborum!</p>
+            <h3 class="pregunta">Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+            <p class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti maiores ipsam odit
+                qui reprehenderit deserunt laboriosam repudiandae at adipisci veniam aliquid saepe, praesentium possimus
+                expedita earum eligendi tempora vero. At, numquam laborum id quaerat vel ab perspiciatis quia obcaecati
+                sint quod, assumenda dicta. Repellat nobis dicta ratione suscipit! Exercitationem, </p>
+            <h3 class="pregunta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <p class="respuesta">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam quidem accusamus
+                reiciendis accusantium voluptatibus, commodi repellat esse non corrupti saepe perferendis culpa.
+                Molestiae illo consequuntur repellat accusantium, eius non, hic aliquid assumenda libero praesentium
+                distinctio exercitationem impedit culpa tempore, ullam perferendis mollitia cumque sed laborum!</p>
+            <h3 class="pregunta">Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+            <p class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti maiores ipsam odit
+                qui reprehenderit deserunt laboriosam repudiandae at adipisci veniam aliquid saepe, praesentium possimus
+                expedita earum eligendi tempora vero. At, numquam laborum id quaerat vel ab perspiciatis quia obcaecati
+                sint quod, assumenda dicta. Repellat nobis dicta ratione suscipit! Exercitationem, </p>
+            <h3 class="pregunta">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <p class="respuesta">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam quidem accusamus
+                reiciendis accusantium voluptatibus, commodi repellat esse non corrupti saepe perferendis culpa.
+                Molestiae illo consequuntur repellat accusantium, eius non, hic aliquid assumenda libero praesentium
+                distinctio exercitationem impedit culpa tempore, ullam perferendis mollitia cumque sed laborum!</p>
+
         </section>
 
     </section>
@@ -119,6 +155,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/formulario.js"></script>
 </body>
 
 </html>
