@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulino's Ski Center</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#" id="btn-index" onclick="disableIndex()"><i class="fas fa-mountain"></i></a>
+                <a href="#" id="btn-valores" onclick="disabled()">Nuestros Valores</a>
+                <a href="#" id="btn-servicios" onclick="disableServicios()">Servicios</a>
+                <a href="#" id="btn-contactanos" onclick="disableContactanos()">Contactanos</a>
+                <a href="#" id="btn-preguntas" onclick="disablePreguntas()">Preguntas</a>
+            </nav>
+            <div class="textos">
+                <h1 class="nombre">Paulino's <span>Ski Center</span></h1>
+                <h3 class="description">Ven a las vacaciones perfectas y podras esquiar todo lo que quieras</h3>
+            </div>
+
+        </div>
+    </header>
+
+
+    <section>
+        <section class="inicio" id="valores">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros Valores</h2>
+                <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi delectus eum placeat
+                    voluptatum blanditiis incidunt sed asperiores quibusdam nemo. Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. Doloremque dolorem illo harum, praesentium dignissimos fuga maxime
+                    quis sit delectus saepe, consectetur quisquam sint! Deserunt, rerum ex? Ipsam explicabo perferendis
+                    atque! Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><br> Totam architecto fugit
+                    labore. Aperiam maxime voluptates ut eaque dolor itaque eius eligendi, repudiandae magnam assumenda.
+                    Necessitatibus ratione odio voluptatibus adipisci excepturi? Nam praesentium consectetur ullam
+                    minima a inventore quisquam accusantium facere dolorum? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Sed non consequatur fuga quas repellat exercitationem cumque recusandae, optio
+                    qui, id iusto et totam pariatur!
+                    <br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias laboriosam ullam repudiandae maxime
+                    quia earum eius repellat delectus consectetur quae ab, aliquid voluptatibus tempore mollitia autem,
+                    a quo sequi iure numquam natus cupiditate unde velit! Animi, voluptate voluptatum libero dicta id
+                    iure quod mollitia nam maiores numquam, nostrum rerum sequi. Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Cumque eius quibusdam maiores a, similique facere odio cupiditate unde commodi
+                    modi quisquam tempora sint. Illo blanditiis, voluptas maxime magnam nobis minus. </p>
+            </div>
+        </section>
+        <hr>
+
+        <section class="servicios" id="servicios">
+            <div class="contenedor">
+                <h2 class="titulo">Servicios</h2>
+                <p class="parrafo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos dolore ipsa illum
+                    quaerat reiciendis veniam deleniti, obcaecati magnam error qui corporis minima quos natus aspernatur
+                    nisi odit. Quod totam molestias voluptatibus autem saepe? Et blanditiis commodi dolorem pariatur
+                    sequi maiores atque provident corporis perspiciatis tenetur. Praesentium, necessitatibus autem in
+                    cupiditate tempore cumque veritatis. Vel rerum dicta aliquid natus fugiat.
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus mollitia autem aperiam
+                    laboriosam nemo consequuntur aspernatur quos recusandae illo eligendi, cumque corporis illum quidem.
+                    Cupiditate possimus eaque vero perspiciatis eum labore ex deserunt vitae quam perferendis totam,
+                    illo architecto. Quod nihil, nam repudiandae eum sit eius voluptatum! Repellat eos laborum
+                    repudiandae minima nihil excepturi animi. Nostrum consequatur aspernatur suscipit quod.
+                </p>
+
+            </div>
+            <div class="imagen"></div>
+        </section>
+        <hr class="ht">
+
+
+
+        <section class="contactanos" id="contactanos">
+            <h2 class="titulo mg">Contactanos</h2>
+            <div class="contenedor">
+                <div class="flexbox1">
+                </div>
+                <form action="" class="formulario">
+                    <div class="direccion">
+                        <p><strong>Telefono:</strong> 809-345-3256</p>
+                        <p class="direccion"><strong>Direccion:</strong>La casa del lado de la vecina tuya, y no se
+                            donde mas puedo vivir</p>
+                        <p><strong>Email:</strong>ElpericodeMiguel@gmail.com</p>
+                    </div>
+                    <div class="formulario-interno">
+                        <p class="error" id="error">Hola soy el error mientras tanto</p>
+                        <input type="text" name="" id="nombre" placeholder="Nombre Completo">
+                        <input type="text" name="" id="correo" placeholder="Correo Electronico">
+                        <input type="text" name="" id="asunto" placeholder="Asunto o Duda">
+                        <textarea name="" placeholder="Mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </section>
+
+
+    <footer>
+        <div class="contenedor redes">
+            <a href="https://facebook.com"><i class="fab fa-facebook-square facebook"></i>
+                <a href="https://instagram.com"> <i class="fab fa-instagram instagram"></i></a>
+        </div>
+
+        <p>Copyright @ 2020 Bons Inc. Todos los derechos reservados</p>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>

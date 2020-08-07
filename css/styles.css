@@ -1,0 +1,253 @@
+body{
+    font-family: 'montserrat', sans-serif;
+    background: url(../img/snow.png);
+    color: black;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 16px;
+}
+
+header{
+    width: 100%;
+    background: url('../img/index3.jpg') rgb(0, 0, 29);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0 ;
+}
+header .contenedor{
+    position: relative;
+    height: 800px;
+}
+
+header .menu {
+    background: white;
+    display: flex;
+    justify-content: space-around; 
+    position:fixed;
+    width: 94vw;
+    margin: 10px 20px;
+    padding: 15px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+header .menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+header .menu a:active{
+    border-bottom:1px solid gray ;
+}
+
+header .textos{
+    width: 100%;
+    color: rgb(0, 0, 29);
+    position: absolute;
+    top: 50%;
+    margin-top: -52px;
+    margin-left: 5vw;
+    z-index: 0;
+}
+
+header .textos .nombre{
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+    text-shadow: 0px 0px 20px white;
+}
+
+header .textos .nombre span{
+    font-weight: 300;
+    color: black;
+    font-style: italic;
+}
+header .textos .description{
+    color: white;
+    margin-top: -10px;
+    text-shadow: 1px 1px 5px black;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+
+
+
+section .inicio .contenedor, section .servicios .contenedor{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width: 50vw;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+section .titulo{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+section .inicio .contenedor .parrafo, section .servicios .contenedor .parrafo{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 300; 
+    font-style: italic;
+}
+hr{
+    border:1px solid #cfcdcd;
+}
+
+section .servicios .imagen{
+    width: 70%;
+    height: 500px;
+    background: url(../img/index.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+}
+
+
+section .contactanos .contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80vw;
+}
+section .contactanos{
+    margin-top:70px;
+}
+.ht{
+    margin-top:90px;
+}
+
+section .contactanos .contenedor .flexbox1{
+    background: url(../img/index2.jpg) ;
+    width: 55vw;
+    height: 610px;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    margin-left: 50px;
+    background-position: center 0 ;
+}
+
+section .contactanos .contenedor .formulario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 35vw;
+}
+.direccion{
+    margin-bottom: 5px;
+}
+.formulario-interno{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.formulario-interno .error{
+    color: rgb(173, 9, 9);
+    display: flex;
+    justify-content: center;
+    margin-left: -105px;
+}
+
+
+.contactanos .formulario input[type="text"], .formulario input[type="submit"], textarea{
+    padding: 10px 20px;
+    width: 350px;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 10px;
+    outline: none;
+    color: rgb(124, 124, 124);
+}
+textarea{
+    resize: none;
+    height: 100px;
+}
+.formulario input[type="submit"]{
+    margin-left:132px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(204, 204, 204, 0.61);
+}
+
+
+.formulario input[type="submit"]:hover{
+    background: black;
+    color: white;
+}
+
+.disabled{
+    opacity: .5;
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: white;
+    font-size: 18px;
+    color: black;
+    padding: 10px 70px;
+}
+
+footer .redes{
+    display:block;
+    border-bottom: 2px solid #aaaaaa;
+}
+
+footer .redes i{
+    font-size: 40px;
+    padding: 5px;
+}
+
+footer .redes .facebook, footer .redes .instagram {color: black;}
+
+footer .redes .instagram:hover{
+    color: #405de6;
+}
+
+footer .redes .facebook:hover{
+    color: #3b5998;
+}
+
