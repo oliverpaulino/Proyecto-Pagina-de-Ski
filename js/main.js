@@ -15,6 +15,9 @@ $(document).ready(function () {
 
 
     $('#btn-index').click(function(){
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1000);
         
     })
     $('#btn-valores').click(function(){
@@ -29,7 +32,7 @@ $(document).ready(function () {
     })
     $('#btn-contactanos').click(function(){
         $('html, body').animate({
-            scrollTop: 2750
+            scrollTop: 2800
         }, 1000);
     })
     $('#btn-preguntas').click(function(){

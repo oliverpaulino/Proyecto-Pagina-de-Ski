@@ -12,7 +12,7 @@ function validar(correo){
 
 
 
-    if(nombre.value.length == '' || correo.value == '' || asunto.value.length == '' || mensaje.value.length == ''){
+    if(nombre.value.length == '' || correo.length == '' || asunto.value.length == '' || mensaje.value.length == ''){
         error.innerHTML = 'Llenar todos los campos';
         event.preventDefault();
 
